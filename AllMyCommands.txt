@@ -1,0 +1,34 @@
+cd c/Users/lenovo/Desktop/myfiles
+pwd
+git init
+git add *
+git commit -a -m "my first commit"
+git rm --cached 3.1.docx
+git checkout -f
+git commit -a -m"all my changes committed"
+git remote add origin https://github.com/nourhanelfransawy/my-repo.git
+git push origin master
+cat >README.md
+Github-Sprint0
+
+MY repository contain three files which are filled with the content of this book Chacon,Scott,and Ben Strau                                                                                     b.Pro Git .Apress,2014.
+first file contains section 1.1Getting Started - About Verion Control from book.
+second file contains section 3.1 Git Branching - Branches in a Nutshell.
+third file contains section 5.1 Distributed Git - Distributed Workflows.
+
+Nourhan Elfransawy 37-9784.
+
+book Chacon,Scott, and Ben Straub. Pro Git.Apress,2014.).
+
+git branch ReadMe
+git checkout ReadMe 
+git add README.md
+git commit -a -m "my commit to the ReddMe branch"
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -a -m "here is my commit to the commands file "
+git push origin master
+
+
+
